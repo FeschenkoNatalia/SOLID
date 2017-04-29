@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="192.0">reporting.EmployeeReportFormatter</node>
+    <node x="0.0" y="565.0">database.DatabaseConnectionManager</node>
+    <node x="0.0" y="312.0">domain.Employee</node>
+    <node x="483.0" y="565.0">clients.ClientModule</node>
+    <node x="297.0" y="775.0">reporting.FormatType</node>
+    <node x="0.0" y="775.0">domain.dao.EmployeeDao</node>
+    <node x="43.5" y="0.0">reporting.ReporterFormatter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="reporting.EmployeeReportFormatter" target="reporting.ReporterFormatter">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="71.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6999999999999997" x="339.00000000000034" y="342.1428571428573" />
+  <SelectedNodes>
+    <node>clients.ClientModule</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

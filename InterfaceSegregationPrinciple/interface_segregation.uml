@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="11.5">Accounting</node>
+    <node x="387.0" y="22.5">Customer</node>
+    <node x="223.00000000000003" y="11.5">Product</node>
+    <node x="597.25" y="214.0">ReportGenerator</node>
+    <node x="202.25000000000003" y="147.0">CustomerTransaction</node>
+    <node x="199.75000000000003" y="406.0">AccountReceivable</node>
+    <node x="526.0" y="0.0">Reporting</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CustomerTransaction" target="Accounting">
+      <point x="-126.375" y="-104.5" />
+      <point x="244.37500000000003" y="122.0" />
+      <point x="101.5" y="122.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="ReportGenerator" target="Reporting">
+      <point x="0.0" y="-37.5" />
+      <point x="63.75" y="48.5" />
+    </edge>
+    <edge source="CustomerTransaction" target="Product">
+      <point x="-42.125" y="-104.5" />
+      <point x="328.625" y="122.0" />
+      <point x="295.0" y="122.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="CustomerTransaction" target="Reporting">
+      <point x="126.375" y="-104.5" />
+      <point x="497.125" y="122.0" />
+      <point x="589.75" y="122.0" />
+      <point x="-63.75" y="48.5" />
+    </edge>
+    <edge source="AccountReceivable" target="CustomerTransaction">
+      <point x="0.0" y="-60.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="CustomerTransaction" target="Customer">
+      <point x="42.125" y="-104.5" />
+      <point x="412.875" y="122.0" />
+      <point x="446.5" y="122.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="185.29166666666674" y="298.2500000000001" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
